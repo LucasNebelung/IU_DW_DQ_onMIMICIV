@@ -1,0 +1,8 @@
+,Strategy,OOF AUROC,AUROC std,OOF AUPRC,AUPRC std,Brier (OOF),Brier std,Avg. rounds
+1,F · Forward fill + learned decay,0.8965,0.0023,0.5732,0.0095,0.0975,0.0046,314
+2,B · Global median,0.8963,0.0019,0.5734,0.0087,0.0966,0.0049,347
+3,A · No imputation (NaN + indicators),0.8962,0.0025,0.5718,0.008,0.0976,0.0053,316
+4,C · Forward fill + recency,0.8956,0.0018,0.572,0.0053,0.0998,0.0075,306
+5,E · MICE / MissForest,0.8947,0.0022,0.5672,0.0096,0.0961,0.0025,316
+6,G · Clinical-default,0.8944,0.0024,0.567,0.0063,0.0992,0.0074,325
+7,D · KNN (k=5),0.8923,0.002,0.5651,0.0078,0.0919,0.0062,399
